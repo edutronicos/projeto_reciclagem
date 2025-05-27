@@ -10,6 +10,3 @@ A aplicação foi concebida para atender a uma necessidade específica de uma al
 - **Firebase:** Plataforma de desenvolvimento de aplicativos móveis e web do Google, utilizada para hospedagem e possíveis funcionalidades futuras (como banco de dados ou autenticação).
 - **Tailwind CSS:** Framework CSS utilitário para estilização rápida e responsiva.
 
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
