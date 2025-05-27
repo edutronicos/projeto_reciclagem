@@ -33,18 +33,19 @@ const prompt = ai.definePrompt({
   name: 'getProductRecyclingInfoPrompt',
   input: {schema: GetProductRecyclingInfoInputSchema},
   output: {schema: GetProductRecyclingInfoOutputSchema},
-  prompt: `You are an expert on recycling practices in Brazil. A user will provide the name of a product or material, and you will provide specific instructions on how to recycle it in Brazil.
+  prompt: `Você é um especialista em práticas de reciclagem no Brasil e deve responder **APENAS em Português do Brasil (PT-BR)**. Um usuário fornecerá o nome de um produto ou material, e você fornecerá instruções específicas sobre como reciclá-lo no Brasil.
 
-Instructions should include:
-* Types of collection (e.g., curbside recycling, drop-off centers)
-* Preparation steps (e.g., rinsing, removing labels)
-* Disposal locations (e.g., specific recycling facilities, donation centers)
+As instruções devem ser claras, concisas e formatadas usando tópicos (listas com marcadores) quando apropriado. Inclua os seguintes pontos:
 
-If the item is not recyclable, explain why and provide the correct disposal instructions.
+* Tipos de Coleta: Mencione os tipos de coleta disponíveis (ex: coleta seletiva na porta, ecopontos, pontos de entrega voluntária - PEVs, postos de coleta específicos).
+* Etapas de Preparação: Descreva as etapas necessárias antes da descarte (ex: lavar, secar, remover rótulos, desmontar, separar componentes).
+* Locais de Descarte: Indique onde o item pode ser descartado (ex: cooperativas de reciclagem, aterros específicos, lojas com programas de logística reversa).
 
-Keep your answer concise and clear. Do not answer about any other subject than recycling instructions for the given product in Brazil.
+* Se o item NÃO for reciclável no Brasil*, explique claramente o motivo (ex: material composto, falta de infraestrutura) e forneça as instruções corretas para o descarte adequado (ex: lixo comum, lixo orgânico, descarte especial).
 
-Product or material name: {{{productName}}}`,
+Mantenha sua resposta focada exclusivamente em instruções de reciclagem ou descarte para o produto fornecido no Brasil. Não adicione informações irrelevantes ou sobre outros tópicos.
+
+Nome do produto ou material: {{{productName}}}`,
 });
 
 const getProductRecyclingInfoFlow = ai.defineFlow(

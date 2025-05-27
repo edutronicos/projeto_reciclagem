@@ -22,6 +22,7 @@ export function RecyclingInfoForm() {
   const [isLoading, setIsLoading] = useState(false);
   const [aiResponse, setAiResponse] = useState<GetProductRecyclingInfoOutput | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [productName, setProductName] = useState<string>('');
 
   const { register, handleSubmit, formState: { errors } } = useForm<FormData>({
     resolver: zodResolver(formSchema),
@@ -31,6 +32,7 @@ export function RecyclingInfoForm() {
     setIsLoading(true);
     setAiResponse(null);
     setError(null);
+    setProductName(data.productName);
 
     const result = await getRecyclingInfoAction(data.productName);
 
@@ -76,15 +78,17 @@ export function RecyclingInfoForm() {
         )}
         {aiResponse && (
           <Card className="shadow-xl animate-in fade-in-50 duration-500">
-            <CardHeader>
+            <CardHeader className="text-center">
               <CardTitle className="text-2xl text-primary flex items-center">
                 <Info className="mr-2 h-6 w-6" /> Informações de Reciclagem
               </CardTitle>
-              <CardDescription>Resultado para: { /* This should ideally come from the input, but we don't pass it back from AI directly. Consider adding submitted product name here. */}</CardDescription>
+              <CardDescription>Resultado para: <i>{ productName }</i></CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-foreground whitespace-pre-wrap leading-relaxed">
-                {aiResponse.recyclingInstructions}
+                {aiResponse.recyclingInstructions.split('\n').map((line, index) => (
+                  <span key={index} className="block text-left">{line}</span>
+                ))}
               </p>
             </CardContent>
           </Card>
