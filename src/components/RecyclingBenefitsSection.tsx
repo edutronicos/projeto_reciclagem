@@ -7,7 +7,7 @@ const benefits = [
     icon: <Sprout className="h-10 w-10 text-primary mb-4" />,
     title: "Benefícios Ambientais",
     description: "Reduz a quantidade de lixo em aterros, economiza recursos naturais, diminui a poluição do ar, água e solo, e ajuda a combater as mudanças climáticas.",
-    imageSrc: "https://placehold.co/600x400.png",
+    imageSrc: "/images/reciclagem2.jpg",
     imageAlt: "Paisagem natural preservada",
     aiHint: "nature landscape"
   },
@@ -15,7 +15,7 @@ const benefits = [
     icon: <Users className="h-10 w-10 text-accent mb-4" />,
     title: "Benefícios Sociais",
     description: "Gera empregos e renda para catadores e trabalhadores da indústria de reciclagem, promove a conscientização ambiental e fortalece a cidadania.",
-    imageSrc: "https://placehold.co/600x400.png",
+    imageSrc: "/images/reciclagem3.jpg",
     imageAlt: "Pessoas trabalhando em cooperativa de reciclagem",
     aiHint: "community recycling"
   },
@@ -23,7 +23,7 @@ const benefits = [
     icon: <DollarSign className="h-10 w-10 text-yellow-500 mb-4" />,
     title: "Benefícios Econômicos",
     description: "Reduz custos com a extração de novas matérias-primas, impulsiona a indústria da reciclagem, gera valor para materiais descartados e fomenta a inovação.",
-    imageSrc: "https://placehold.co/600x400.png",
+    imageSrc: "/images/reciclagem4.jpg",
     imageAlt: "Moedas e gráficos de crescimento",
     aiHint: "economic growth"
   },

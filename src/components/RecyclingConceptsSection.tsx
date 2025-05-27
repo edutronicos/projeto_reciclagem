@@ -49,10 +49,10 @@ export function RecyclingConceptsSection() {
           <CardHeader className="items-center text-center">
             <BarChart3 className="h-10 w-10 text-accent mb-4" />
             <CardTitle className="text-xl text-foreground">Situação da Reciclagem no Brasil</CardTitle>
-          </CardHeader>
+          </CardHeader> 
           <CardContent className="flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
             <Image 
-              src="https://placehold.co/600x400.png" 
+              src="/images/reciclagem1.jpg" 
               alt="Gráfico ilustrativo sobre reciclagem no Brasil" 
               width={300} 
               height={200} 
