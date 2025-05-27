@@ -7,7 +7,7 @@ export function AppHeader() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 text-2xl font-bold text-primary hover:opacity-80 transition-opacity">
           <Recycle className="h-8 w-8" />
-          <span>RecycleAI Brasil</span>
+          <span>Recicle+ Brasil</span>
         </Link>
         <nav>
           <ul className="flex items-center gap-6 text-foreground">
