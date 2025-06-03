@@ -1,6 +1,6 @@
-## Sobre o Projeto: Recicla +
+## Sobre o Projeto: Curitiba Recicla
 
-Este projeto, denominado "Recicla +", é uma aplicação web desenvolvida com o objetivo de fornecer informações sobre reciclagem, auxiliando os usuários a entenderem os processos, benefícios e pontos de coleta de materiais recicláveis. 
+Este projeto, denominado "Curitiba Recicla", é uma aplicação web desenvolvida com o objetivo de fornecer informações sobre reciclagem, auxiliando os usuários a entenderem os processos, benefícios e pontos de coleta de materiais recicláveis. 
 
 A aplicação foi concebida para atender a uma necessidade específica de uma aluna do curso de Marketing, servindo como ferramenta de apresentação para um trabalho acadêmico. Seu propósito principal é educar e conscientizar sobre a importância da reciclagem, de forma interativa e acessível.
 

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Recicle+ Brasil',
+  title: 'Curitiba Recicla',
   description: 'Informações sobre reciclagem no Brasil com IA.',
 };
 
