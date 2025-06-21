@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 body {
+  background-image: url('../../public/images/recicla_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
