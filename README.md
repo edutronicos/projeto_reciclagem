@@ -8,12 +8,12 @@ Transforme a reciclagem, fortaleça um futuro mais verde.
 
 ### Índice
 
-  * [Visão geral](https://www.google.com/search?q=%23visao-geral)
-  * [Começando](https://www.google.com/search?q=%23come%C3%A7ando)
-  * [Pré-requisitos](https://www.google.com/search?q=%23pr%C3%A9-requisitos)
-  * [Instalação](https://www.google.com/search?q=%23instala%C3%A7%C3%A3o)
-  * [Uso](https://www.google.com/search?q=%23uso)
-  * [Teste](https://www.google.com/search?q=%23teste)
+  * [Visão geral](#visão-geral)
+  * [Começando](#começando)
+  * [Pré-requisitos](#pré-requisitos)
+  * [Instalação](#instalação)
+  * [Uso](#uso)
+  * [Teste](#teste)
 
 -----
 
@@ -83,4 +83,4 @@ npm test
 
 -----
 
-[Retornar](https://www.google.com/search?q=%23%C3%ADndice)
+[Retornar](#índice)
